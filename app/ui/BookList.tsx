@@ -26,6 +26,7 @@ interface BookListProps {
 
 // The main BookList component
 // It takes 'books' as a prop and displays them in a list
+// We do not need to await this because the params are NOT passed through routing
 export default function BookList({ books }: BookListProps) {
   // Get the router so we can refresh the page after actions
   const router = useRouter();

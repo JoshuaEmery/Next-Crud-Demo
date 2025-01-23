@@ -15,7 +15,7 @@ import { updateBook, getBook } from "../../../lib/actions/bookActions"; // Funct
 import { useRouter } from "next/navigation"; // For navigating after saving
 import Link from "next/link"; // For navigation links
 
-// In Next.js 14, route parameters are Promises
+// In Next.js 15, route parameters are Promises
 // This type tells TypeScript what our parameters look like
 type PageParams = Promise<{ id: string }>;
 

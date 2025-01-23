@@ -5,6 +5,7 @@ export enum BookCondition {
   GOOD = "GOOD",
   FAIR = "FAIR",
   POOR = "POOR",
+  DESTROYED = "DESTROYED",
 }
 
 // Interface defining the shape of a Book object
